@@ -110,9 +110,13 @@ class Main {
             throw new IllegalArgumentException("Число должно быть от 1 до 100");
         }
 
-        String[] romanNumerals = { "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+        String[] romanNumerals = {
+                "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"
+        };
 
-        int[] arabicValues = { 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        int[] arabicValues = {
+                100, 90, 50, 40, 10, 9, 5, 4, 1
+        };
 
         StringBuilder result = new StringBuilder();
         int index = 0;
